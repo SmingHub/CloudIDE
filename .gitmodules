@@ -1,0 +1,3 @@
+[submodule "SmingSkeletonApp"]
+	path = SmingSkeletonApp
+	url = https://github.com/SmingHub/SmingSkeletonApp.git
