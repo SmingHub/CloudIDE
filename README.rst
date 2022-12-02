@@ -3,7 +3,7 @@ Cloud IDE
 
 .. highlight:: text
 
-Sming Cloud IDE is a cloud-based development environment for Sming, the open source embedded development framework. 
+Sming Cloud IDE is a cloud-based development environment for `Sming <https://github.com/SmingHub/Sming>`__, the open source embedded development framework. 
 It provides a development environment with a built-in code editor, compiler, debugger and more, all running in your browser.
 
 Getting Started
@@ -41,13 +41,13 @@ reference <https://code.visualstudio.com/docs/remote/devcontainerjson-reference>
 .. |OpenInGitpod| image:: https://gitpod.io/button/open-in-gitpod.svg
 .. _OpenInGitpod: https://gitpod.io/#https://github.com/SmingHub/CloudIDE
 
-Local Development
+Cloud Development
 ~~~~~~~~~~~~~~~~~
 
-The first step is to install Sming on your computer.
-If you haven't done this already take a look at the `Sming documentation <https://sming.readthedocs.io/en/latest/getting-started/index.html>`_.
+Once your Cloud IDE starts you should have the `Sming Skeleton Application <https://github.com/SmingHub/SmingSkeletonApp>`__ 
+ready and waiting for you
 
-After that go to the root folder of the skeleton application and type::
+To check your development setup type in terminal the following command::
 
    make help
    
@@ -59,11 +59,6 @@ Compiling the current application can be done using::
 
    make
 	
-If the commands above worked for you then you can start coding your first Sming application.
-For better productivity we recommend the use of Integrated Development Environment (IDE). 
-Read `here <https://sming.readthedocs.io/en/latest/tools/index.html>`_ to see which IDEs are supported.
-
-Now is time to open app/applications.cpp and start adding code to it. 
+If the commands above worked for you then you can start coding your first Sming application by modifying the ``app/applications.cpp`` file.
 If you don't know how to continue take a look at `our samples <https://github.com/SmingHub/Sming/tree/develop/samples>`_.
 The samples are a great way to learn the API and brush up your C/C++ skills.
-

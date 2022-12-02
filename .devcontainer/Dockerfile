@@ -57,3 +57,5 @@ COPY tools/flash.sh /home/${CONTAINER_USER}/tools/flash.sh
 COPY tools/run-wokwi.sh /home/${CONTAINER_USER}/tools/run-wokwi.sh
     
 RUN echo ". /opt/sming/Tools/export.sh" >> ~/.bashrc
+
+RUN git clone https://github.com/SmingHub/SmingSkeletonApp.git /home/${CONTAINER_USER}/SmingSkeletonApp

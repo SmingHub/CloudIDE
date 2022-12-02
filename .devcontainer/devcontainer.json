@@ -37,6 +37,6 @@
     9333,
     8000
   ],
-  "workspaceMount": "source=${localWorkspaceFolder},target=/home/developer/SmingSkeletonApp,type=bind,consistency=cached",
-  "workspaceFolder": "/home/developer/SmingSkeletonApp"
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/gitpod/SmingSkeletonApp,type=bind,consistency=cached",
+  "workspaceFolder": "/home/gitpod/SmingSkeletonApp"
 }
