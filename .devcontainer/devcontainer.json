@@ -1,0 +1,42 @@
+{
+  "name": "Sming Skeleton Application",
+  // "image": "docker.io/attachix/sming:develop",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "SMING_BRANCH":"develop"
+    }
+  },
+  "settings": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "files.associations": {
+        "*.hw": "jsonc",
+        "*.fwfs": "jsonc",
+        "optional": "cpp"
+    },
+    "json.schemas": []
+  },
+  "extensions": [
+    "ms-vscode.makefile-tools",
+    "ms-vscode.cmake-tools",
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cpptools-themes",
+    "tamasfe.even-better-toml",
+    "serayuzgur.crates",
+    "mutantdino.resourcemonitor",
+    "yzhang.markdown-all-in-one",
+    "webfreak.debug",
+    "actboy168.tasks"
+  ],
+  "forwardPorts": [
+    9012,
+    9333,
+    8000
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/developer/SmingSkeletonApp,type=bind,consistency=cached",
+  "workspaceFolder": "/home/developer/SmingSkeletonApp"
+}
