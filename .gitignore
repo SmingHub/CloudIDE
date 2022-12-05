@@ -25,3 +25,7 @@ vssver2.scc
 
 .metadata
 .submodule
+
+# GitHub Codespaces files
+.vscode-remote
+.docker
